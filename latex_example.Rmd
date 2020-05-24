@@ -1,0 +1,32 @@
+---
+title: "Dissertação"
+author: "Marcelo Ventura"
+keep_tex: yes
+output:
+  pdf_document:
+    keep_tex: true
+header-includes:
+- \usepackage{bbm}
+- \usepackage{abntex2cite}
+bibliography: bibliography.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introdução
+
+Esse documento será atualizado com o tempo.
+
+```{r cars}
+summary(cars)
+```
+
+## Subseção
+
+Esse é um exemplo de subseção. O livro @wickham2017r ajudou muito na minha trajetória.
+
+# Bibliografia
+
